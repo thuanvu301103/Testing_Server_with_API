@@ -1,18 +1,19 @@
-const http = require('http');
+const express = require ("express");
 
+const server = express();
+const port = 1500;
 const host = "localhost";
-const port = 8000;
 
-// Create a fucntion use on server
-const requestListener = function (req, res) {
-	res.writeHead(200);
-	res.end("My first server");
-};
+// Welcome to website
+server.get('/', (req, res) => res.send('Welcome to HCMUT_SSO Authentication'));
 
-// Create a server
-const server = http.createServer(requestListener);
-
-// Bind server on network
-server.listen(port, host, () => {
-    console.log(`Server running at http://${host}:${port}/`);
+// Query for login
+server.get('/login', (req, res) => {
+	const queryParameters = req.query;
+	// For example: if you navigate to http://localhost:3000/login?username=nodejs&password=10, 
+	// the req.query object will be { username: 'nodejs', password: '10' }
+	// console.log(queryParameters)	check
+	const password = queryParameters.
 });
+	
+server.listen(port, host, () => console.log(`Example app listening at  http://${host}:${port}/`));
