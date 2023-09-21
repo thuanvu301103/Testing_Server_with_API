@@ -1,9 +1,9 @@
 # Testing_Server_with_API
 ## Introduction
 - These are very simple server (runing on Node.js server-environment) for testing purpose
-- These server iss configuration using Node.js platform
+- These server is configuration using Node.js platform
 ## Intruction
-To use these serevr, you have to follow these steps:
+To use these server, you have to follow these steps:
 1. Make sure you have installed Node.js and npm
 2. Make sure you have unstalled required modules in README file in the folder (Open Terminal and type "node install <module_name>")
 3. Open terminal and navigate to the directiry that contains js file
