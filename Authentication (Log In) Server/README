@@ -1,1 +1,2 @@
+- Change IP and port of Server by changing values of "host" and "port" in file "loginserver.js"
 - Create Server by running "loginserver.js"
