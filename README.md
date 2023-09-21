@@ -1,6 +1,6 @@
 # Testing_Server_with_API
 ## Introduction
-- Here, I create some simple server (maybe other type of computers) for testing purpose
+- These are very simple server (runing on Node.js server-environment) for testing purpose
 - These server iss configuration using Node.js platform
 ## Intruction
 To use these serevr, you have to follow these steps:
