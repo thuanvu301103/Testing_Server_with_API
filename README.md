@@ -1,7 +1,7 @@
-# Testing_Server_with_API
+# Testing_Server_with_HHTP_API
 ## Introduction
 - These are very simple server (runing on Node.js server-environment) for testing purpose
-- These server is configuration using Node.js platform
+- These server is configuration using Node.js server environment
 ## Intruction
 To use these server, you have to follow these steps:
 1. Make sure you have installed Node.js and npm
@@ -9,4 +9,4 @@ To use these server, you have to follow these steps:
 3. Open terminal and navigate to the directiry that contains js file
 4. Enter "node <js_file>"
 ## About the API
-TI have included API list in each folder, you just have to use it while running the server.
+TI have included HTTP API list in each folder, you just have to use it while running the server.
