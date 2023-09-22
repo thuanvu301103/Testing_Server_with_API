@@ -1,4 +1,4 @@
-# Testing_Server_with_HHTP_API
+# Testing_Server_with_HTTP_API
 ## Introduction
 - These are very simple server (runing on Node.js server-environment) for testing purpose
 - These server is configuration using Node.js server environment
