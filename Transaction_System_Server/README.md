@@ -7,22 +7,22 @@ The data of a user have 3 values:
 - ID
 - balance: amount of money currently be in user's account
 ## About the API
-1. GET: http://localhost:{port number}/charge?id={ID number}&charge={transaction charge}
-  - transaction charge: the amount of money that you want to charge to your account. 
-Response: JSON 
+1. GET: "http://localhost:{port number}/charge?id={ID number}&charge={transaction charge}"
+* transaction charge: the amount of money that you want to charge to your account. 
+* Response: JSON 
 [{
   "success": true/false,
   "balance": your account's balance
 }]
-2. GET: http://localhost:{port number}/pay?id={ID number}&cost={transaction cost}
-  - transaction cost: the amount of money that you want to withdraw from your account. 
-Response: JSON 
+2. GET: "http://localhost:{port number}/pay?id={ID number}&cost={transaction cost}"
+* transaction cost: the amount of money that you want to withdraw from your account. 
+* Response: JSON 
 [{
   "success": true/false,
   "balance": your account's balance
 }]
-3. GET: http://localhost:{port number}/balance?id={id number}
-Response: JSON 
+3. GET: "http://localhost:{port number}/balance?id={id number}"
+* Response: JSON 
 [{
   "ID": account's id,
   "balance": your account's balance
