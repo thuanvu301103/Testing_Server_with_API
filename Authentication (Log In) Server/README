@@ -11,10 +11,11 @@ The "login" data of a user have 3 values:
 GET: http://localhost:{port}/login?username={username}&password={password}
 Response: JSON 
 [{
-  ID: "id",
-  username: "username",
-  password: "password",
+  "ID": "id",
+  "username": "username",
+  "password": "password",
 }]
+* Caution: if the access request is denied, It will return JSON with all values is null.
 ## Intruction
 1. Make sure that you have installed these modules: express, mysql, xlsx.
 2. (Optional) Create a databse by changing the dât in "data.xlsx" file
