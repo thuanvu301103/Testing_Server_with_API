@@ -28,8 +28,8 @@ server.get('/login', (req, res) => {
 	//console.log(password);	
 
 	var result = data.filter((el) => (el.username == username) && (el.password == password));
-	//console.log(result);
-	res.end(JSON.stringify(result));
+	if (result.length == 0) res.end(JSON.stringify([{"ID": null, "username": null, "password": null}]));
+	else res.end(JSON.stringify(result));
 	
 });
 	
