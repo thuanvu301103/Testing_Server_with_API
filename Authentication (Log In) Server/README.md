@@ -9,7 +9,7 @@ The "login" data of a user have 3 values:
 - ID
 ## About the API
 GET: http://localhost:{port}/login?username={username}&password={password}
-Response: JSON 
+* Response: JSON 
 [{
   "ID": "id",
   "username": "username",
