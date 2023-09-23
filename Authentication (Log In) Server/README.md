@@ -19,8 +19,8 @@ GET: ```http://localhost:{port}/login?username={username}&password={password}```
 ```
 * Caution: if the access request is denied, It will return JSON with all values is ```null```.
 ## Intruction
-1. Make sure that you have installed these modules: express, mysql, xlsx.
-2. (Optional) Create a databse by changing the dât in "data.xlsx" file
-3. (Optional) You can change "port number" in "loginserver.js"
-4. Run Server by running "loginserver.js": In termianl, navigate to destination and type ```node loginserver.js```
+1. Make sure that you have installed these modules: ```express```, ```xlsx```.
+2. (Optional) Create a databse by changing the dât in ```data.xlsx``` file
+3. (Optional) You can change ```port number``` in ```loginserver.js```
+4. Run Server by running ```loginserver.js```: In termianl, navigate to destination and type ```node loginserver.js```
 5. Using API (described above) to get ID os user
