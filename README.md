@@ -5,7 +5,7 @@
 ## Intruction
 To use these server, you have to follow these steps:
 1. Make sure you have installed Node.js and npm
-2. Make sure you have unstalled required modules in README file in the folder - open Terminal, navigate to the folder cotaining js file type: ```npm install <module_name>``` or ```npm i <module_name>```
+2. Make sure you have unstalled required modules in README file in the folder - open Terminal, navigate to the folder cotaining js file type: ```npm install <module1, module2, ...>``` or ```npm i <module1, module2, ...>```
 3. Open terminal and navigate to the directiry that contains js file
 4. Enter: ```node <js_file>```
 ## About the API
