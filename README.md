@@ -5,8 +5,8 @@
 ## Intruction
 To use these server, you have to follow these steps:
 1. Make sure you have installed Node.js and npm
-2. Make sure you have unstalled required modules in README file in the folder (Open Terminal and type "node install <module_name>")
+2. Make sure you have unstalled required modules in README file in the folder - open Terminal and type: ```node install <module_name>```
 3. Open terminal and navigate to the directiry that contains js file
-4. Enter "node <js_file>"
+4. Enter: ```node <js_file>```
 ## About the API
 TI have included HTTP API list in each folder, you just have to use it while running the server.
